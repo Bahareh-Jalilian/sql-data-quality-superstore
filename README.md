@@ -1,10 +1,18 @@
 # SQL Data Quality & Analysis – Superstore Dataset
 
 ## Overview
-This project demonstrates SQL-based data profiling, quality validation, and business analysis using a retail sales dataset.
+This project demonstrates SQL-based data profiling, quality validation, cleaning and business analysis using a retail sales dataset.
 
 ## Dataset
 Sample Superstore dataset containing customer orders, products, sales, and profit information.
+
+## Project Steps
+
+1. Imported raw Superstore CSV into PostgreSQL
+2. Performed data profiling (nulls, duplicates, invalid values)
+3. Applied data quality rules to create a clean table
+4. Executed business value queries (top customers, trends)
+5. Documented results
 
 ## Data Quality Issues Identified
 - Missing postal codes
@@ -26,7 +34,7 @@ Sample Superstore dataset containing customer orders, products, sales, and profi
 
 ## Tools
 - PostgreSQL
-- SQL
+- pgAdmin
 - GitHub
 
 ## Key Takeaway
