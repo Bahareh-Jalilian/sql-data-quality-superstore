@@ -9,10 +9,11 @@ Sample Superstore dataset containing customer orders, products, sales, and profi
 ## Project Steps
 
 1. Imported raw Superstore CSV into PostgreSQL
-2. Performed data profiling (nulls, duplicates, invalid values)
-3. Applied data quality rules to create a clean table
-4. Executed business value queries (top customers, trends)
-5. Documented results
+2. Handled encoding-related data quality issues during CSV ingestion into PostgreSQL
+3. Performed data profiling (nulls, duplicates, invalid values)
+4. Applied data quality rules to create a clean table
+5. Executed business value queries (top customers, trends)
+6. Documented results
 
 ## Data Quality Issues Identified
 - Missing postal codes
